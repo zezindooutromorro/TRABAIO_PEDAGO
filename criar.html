@@ -10,7 +10,7 @@
     <div class="login-container">
         <h1>Criar conta</h1>
         <form>
-            <input type="cpf" placeholder="CPF" required>
+            <input type="text" name="cpf" maxlength="11" OnKeyPress="formatar('###.###.###-##',this)" placeholder="CPF" required>
             <input type="nome" placeholder="Nome" required>
             <input type="password" placeholder="Senha" required>
             <button type="submit"><a href="principal.html">ENTRAR</a></button>

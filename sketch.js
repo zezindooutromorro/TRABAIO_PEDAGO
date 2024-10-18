@@ -1,4 +1,4 @@
-play.addEventListener("click", );
+play.addEventListener("click", logar);
 
 
   function avancar(){

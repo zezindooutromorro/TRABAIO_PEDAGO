@@ -18,7 +18,10 @@ body {
     text-align: center;
     transition: transform 0.2s;
 }
-g
+
+.logar{
+    text-decoration: none;
+}
 
 .login-container:hover {
     transform: translateY(-2px);
