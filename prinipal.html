@@ -30,15 +30,21 @@
     <div class="container">
         <h1>Escaladex</h1>
         <img src="botamulher.png" alt="Tênis de Montanhismo" class="product-image">
-        <p class="price">R$ 189,99</p>
+        <form>
+            <label for="endereco" class="input-label">Endereço:</label>
+            <input type="text" id="endereco" class="input-field" placeholder="Rua, Número, Bairro" required>
+
+        </form>
         
-        <label for="tamanho">Selecione o Tamanho:</label>
+        <label for="tamanho">Selecione a série</label>
         <select id="tamanho" class="size-selector">
-            <option value="34">34</option>
-            <option value="35">35</option>
-            <option value="36">36</option>
-            <option value="37">37</option>
-            <option value="38">38</option>
+            <option value="6">6°</option>
+            <option value="7">7°</option>
+            <option value="8">8°</option>
+            <option value="9">9°</option>
+            <option value="1">1°</option>
+            <option value="2">2°</option>
+            <option value="3">3°</option>
         </select>
         
         <a href="endereço.html"><button class="buy-button">Comprar Agora</button></a>

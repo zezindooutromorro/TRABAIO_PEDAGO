@@ -72,6 +72,30 @@ h1 {
     font-weight: 700;
 }
 
+.input-label {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0 5px;
+    display: block;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #c8102e;
+    outline: none;
+    box-shadow: 0 0 5px rgba(200, 16, 46, 0.5);
+}
+
+
 .product-image {
     width: 100%;
     border-radius: 10px;
