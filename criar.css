@@ -10,8 +10,9 @@ body {
 }
 
 .login-container {
-    background:  #78866b ;
+    background:  #000000 ;
     border-radius: 12px;
+    color: #32cd32;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     padding: 30px;
     width: 350px;
@@ -50,7 +51,7 @@ g
     background: #000000;
     border: none;
     border-radius: 6px;
-    color: #ffffff;
+    color: #32cd32;
     font-size: 18px;
     cursor: pointer;
     transition: background 0.3s, transform 0.1s;
@@ -64,7 +65,7 @@ g
 .login-container .signup-link {
     margin-top: 15px;
     display: block;
-    color: #007bff;
+    color: #32cd32;
     text-decoration: none;
     transition: color 0.3s;
 }
