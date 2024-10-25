@@ -40,14 +40,14 @@ g
 }
 
 .login-container input:focus {
-    border-color: #007bff;
+    border-color: #000000;
     outline: none;
 }
 
 .login-container button {
     width: 100%;
     padding: 12px;
-    background: #007bff;
+    background: #000000;
     border: none;
     border-radius: 6px;
     color: #ffffff;
@@ -57,7 +57,7 @@ g
 }
 
 .login-container button:hover {
-    background: #0056b3;
+    background: #000000;
     transform: translateY(-1px);
 }
 
@@ -70,6 +70,6 @@ g
 }
 
 .login-container .signup-link:hover {
-    color: #0056b3;
+    color: #000000;
     text-decoration: underline;
 }
