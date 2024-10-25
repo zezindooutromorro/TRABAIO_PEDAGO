@@ -2,7 +2,7 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color:  #78866b ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .login-container {
-    background: #ffffff;
+    background:  #78866b ;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     padding: 30px;
@@ -53,7 +53,7 @@ body {
     background: #007bff;
     border: none;
     border-radius: 6px;
-    color: #ffffff;
+    color:  #78866b ;
     font-size: 18px;
     cursor: pointer;
     transition: background 0.3s, transform 0.1s;
