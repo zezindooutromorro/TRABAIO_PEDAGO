@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Ocorrências de Alunos</title>
+    <link rel="stylesheet" href="style03.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Registro de Ocorrências de Alunos</h1>
+
+    <form id="occurrenceForm">
+        <label for="studentName">Nome do Aluno:</label>
+        <input type="text" id="studentName" placeholder="Digite o nome do aluno" required>
+
+        <label for="date">Data da Ocorrência:</label>
+        <input type="date" id="date" required>
+
+        <label for="description">Descrição da Ocorrência:</label>
+        <textarea id="description" placeholder="Descreva a ocorrência" rows="4" required></textarea>
+
+        <button type="submit">Adicionar Ocorrência</button>
+    </form>
+
+    <div class="occurrence-list" id="occurrenceList">
+        <!-- Ocorrências adicionadas aparecerão aqui -->
+    </div>
+</div>
+
+<script src="script03.js"></script>
+</body>
+</html>
