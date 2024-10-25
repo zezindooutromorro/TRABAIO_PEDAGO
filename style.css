@@ -68,12 +68,12 @@ body {
 .login-container .signup-link {
     margin-top: 15px;
     display: block;
-    color: #007bff;
+    color: #32cd32;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .login-container .signup-link:hover {
-    color: #0056b3;
+    color: #ff0000;
     text-decoration: underline;
 }
