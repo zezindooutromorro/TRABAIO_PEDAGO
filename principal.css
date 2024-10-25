@@ -12,7 +12,7 @@ header {
     align-items: center;
     padding: 10px;
     background-color: #000;
-    color: #32cd32;
+    color: #fff;
 }
 
 header .logo img {
@@ -74,26 +74,25 @@ h1 {
 
 .input-label {
     font-size: 16px;
-    color: black;
+    color: #333;
     margin: 10px 0 5px;
     display: block;
 }
 
 .input-field {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 7px;
+    margin-bottom: 5px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 16px;
     transition: border-color 0.3s;
 }
 
 .input-field:focus {
-    border-color: #6b6868;
-    color: #32cd32;
+    border-color: #c8102e;
     outline: none;
-    box-shadow: 0 0 5px rgba(255, 0, 64, 0.5);
+    box-shadow: 0 0 5px rgba(200, 16, 46, 0.5);
 }
 
 
@@ -130,20 +129,20 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    background-color: #000000;
-    color: #32cd32;
+    background-color: #f5f5f5;
+    color: #000;
     transition: border-color 0.3s;
 }
 
 .size-selector:hover,
 .size-selector:focus {
-    border-color: #ff0000;
+    border-color: #c8102e;
     outline: none;
 }
 
 .buy-button {
-    background-color: #000000;
-    color: #32cd32;
+    background-color: #c8102e;
+    color: #fff;
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
@@ -160,7 +159,7 @@ h1 {
 .footer {
     margin-top: 20px;
     font-size: 14px;
-    color: #32cd32;
+    color: #555;
 }
 
 
