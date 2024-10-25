@@ -12,7 +12,7 @@ header {
     align-items: center;
     padding: 10px;
     background-color: #000;
-    color: #fff;
+    color: #32cd32;
 }
 
 header .logo img {
@@ -90,9 +90,10 @@ h1 {
 }
 
 .input-field:focus {
-    border-color: #c8102e;
+    border-color: #000000;
+    color: #32cd32;
     outline: none;
-    box-shadow: 0 0 5px rgba(200, 16, 46, 0.5);
+    box-shadow: 0 0 5px rgba(124, 116, 118, 0.5);
 }
 
 
@@ -129,20 +130,20 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    background-color: #f5f5f5;
-    color: #000;
+    background-color: #000000;
+    color: #32cd32;
     transition: border-color 0.3s;
 }
 
 .size-selector:hover,
 .size-selector:focus {
-    border-color: #c8102e;
+    border-color: #000000;
     outline: none;
 }
 
 .buy-button {
-    background-color: #c8102e;
-    color: #fff;
+    background-color: #000000;
+    color: #32cd32;
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
