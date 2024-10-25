@@ -44,14 +44,14 @@ body {
 }
 
 .login-container input:focus {
-    border-color: #000000;
+    border-color: #ff0000;
     outline: none;
 }
 
 .login-container button {
     width: 100%;
     padding: 12px;
-    background: #000000;
+    background: #2b29298e;
     border: none;
     border-radius: 6px;
     color:  #32cd32 ;
@@ -61,7 +61,7 @@ body {
 }
 
 .login-container button:hover {
-    background: #000000;
+    background: #242222c7;
     transform: translateY(-1px);
 }
 
