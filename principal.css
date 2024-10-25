@@ -74,7 +74,7 @@ h1 {
 
 .input-label {
     font-size: 16px;
-    color: #333;
+    color: black;
     margin: 10px 0 5px;
     display: block;
 }
@@ -90,10 +90,10 @@ h1 {
 }
 
 .input-field:focus {
-    border-color: #000000;
+    border-color: #6b6868;
     color: #32cd32;
     outline: none;
-    box-shadow: 0 0 5px rgba(124, 116, 118, 0.5);
+    box-shadow: 0 0 5px rgba(255, 0, 64, 0.5);
 }
 
 
@@ -137,7 +137,7 @@ h1 {
 
 .size-selector:hover,
 .size-selector:focus {
-    border-color: #000000;
+    border-color: #ff0000;
     outline: none;
 }
 
@@ -160,7 +160,7 @@ h1 {
 .footer {
     margin-top: 20px;
     font-size: 14px;
-    color: #555;
+    color: #32cd32;
 }
 
 
