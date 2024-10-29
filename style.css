@@ -2,7 +2,7 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #00AD45;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,4 +75,11 @@ body {
 .login-container .signup-link:hover {
     color: #0056b3;
     text-decoration: underline;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
 }
