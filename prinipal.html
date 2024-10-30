@@ -23,25 +23,22 @@
         </div>
     </header>
 
-    
-
-
     <div class="container">
-        <h1>Selecione uma Imagem</h1>
+        <h1>Insira uma imagem do estudante</h1>
         <input type="file" id="inputImagem" accept="image/*">
         <br>
         <img id="imagemExibida" alt="Imagem Selecionada"  class="product-image">
-    
+
         <script src="script.js"></script>
-        <form>
-            <label for="endereco" class="input-label">Nome aluno:</label>
-            <input type="text" id="endereco" class="input-field" placeholder="Nome" required>
+        <form method="post" action="BD/banco.php">
+            <label for="endereco" class="input-label">Nome completo do estudante:</label>
+            <input type="text" id="nome" class="input-field" name="nome" placeholder="Nome completo" required autocomplete="off">
 
             <label for="endereco" class="input-label">CGM:</label>
-            <input type="number" id="endereco" class="input-field" placeholder="Código Geral de Matrícula" required> 
+            <input type="number" id="endereco" class="input-field" name="cgm" placeholder="Código Geral de Matrícula" required> 
 
             <label for="endereco" class="input-label">CPF:</label>
-            <input type="number" id="endereco" maxlength="15" class="input-field" placeholder="Cadastro de Pessoa Física" required>
+            <input type="number" id="endereco" maxlength="11" name="cpf" class="input-field" placeholder="Cadastro de Pessoa Física" required>
 
             <label for="endereco" class="input-label">Responsáveis:</label>
             <input type="text" id="endereco" class="input-field" placeholder="Nome dos responsáveis" required>
@@ -79,12 +76,7 @@
         
         <a href="endereço.html"><button class="buy-button">Cadastrar</button></a>
         
-        <div class="footer">Colégio Estadual Mario Brandão Texeira Braga</div>
+        <div class="footer">Colégio Estadual Mário Brandão Texeira Braga</div>
     </div>
-
-
-
-
-    
 </body>
 </html>
