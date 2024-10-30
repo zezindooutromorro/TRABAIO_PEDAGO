@@ -11,12 +11,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #000;
+    background-color: #00AD45;
     color: #fff;
 }
 
 header .logo img {
-    height: 40px;
+    height: 200px;
 }
 
 nav ul {
@@ -90,13 +90,13 @@ h1 {
 }
 
 .input-field:focus {
-    border-color: #c8102e;
+    border-color: #00AD45;
     outline: none;
-    box-shadow: 0 0 5px rgba(200, 16, 46, 0.5);
+    box-shadow: 0 0 5px #657D57;
 }
 
-
 .product-image {
+    align-items: center;
     display: none; 
     margin-top: 20px;
     max-width: 100%; 
@@ -111,7 +111,7 @@ h1 {
 .price {
     font-size: 24px;
     margin: 15px 0;
-    color: #c8102e;
+    color: #00AD45;
     font-weight: bold;
 }
 
@@ -136,12 +136,12 @@ h1 {
 
 .size-selector:hover,
 .size-selector:focus {
-    border-color: #c8102e;
+    border-color: #00AD45;
     outline: none;
 }
 
 .buy-button {
-    background-color: #c8102e;
+    background-color: #00AD45;
     color: #fff;
     padding: 12px 20px;
     border: none;
